@@ -1,0 +1,32 @@
+{
+  "name": "httpverbs-site",
+  "version": "1.0.0",
+  "description": "Simple site listing http verbs",
+  "main": "index.js",
+  "dependencies": {
+    "vue": "^2.4.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kernelcurry/httpverbs-site.git"
+  },
+  "keywords": [
+    "http",
+    "http",
+    "verbs",
+    "get",
+    "post",
+    "delete",
+    "patch"
+  ],
+  "author": "Michael Curry (KernelCurry)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kernelcurry/httpverbs-site/issues"
+  },
+  "homepage": "https://httpverbs.com"
+}
