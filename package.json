@@ -2,13 +2,11 @@
   "name": "httpverbs-site",
   "version": "1.0.0",
   "description": "Simple site listing and explaing HTTP Verbs",
-  "main": "index.js",
-  "dependencies": {
-    "vue": "^2.4.2"
-  },
-  "devDependencies": {},
+  "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "watch": "npm run build -- --watch"
   },
   "repository": {
     "type": "git",
@@ -20,13 +18,22 @@
     "verbs",
     "get",
     "post",
-    "delete",
-    "patch"
+    "patch",
+    "delete"
   ],
   "author": "Michael Curry (KernelCurry)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/kernelcurry/httpverbs-site/issues"
   },
-  "homepage": "https://httpverbs.com"
+  "homepage": "https://github.com/kernelcurry/httpverbs-site#readme",
+  "devDependencies": {
+    "vue-loader": "^13.0.4",
+    "vue-router": "^2.7.0",
+    "vue-template-compiler": "^2.4.2",
+    "webpack": "^3.5.5"
+  },
+  "dependencies": {
+    "vue": "^2.4.2"
+  }
 }
