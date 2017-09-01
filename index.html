@@ -1,13 +1,28 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
     <head>
-        <title></title>
+        <meta charset="utf-8">
+        <title>Http Verbs</title>
+        <meta name="description" content="TODO">
+        <meta name="author" content="Michael Curry (KernelCurry)">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+        <link rel="stylesheet" href="./src/css/normalize.css">
+        <link rel="stylesheet" href="./src/css/skeleton.css">
     </head>
     <body>
         <div id="root">
-            <router-link to="/">Home</router-link>
-            <router-link to="/about">About</router-link>
-
-            <router-view></router-view>
+            <div class="container">
+                <div class="row">
+                    <div class="one-half column">
+                        <router-link to="/">Home</router-link>
+                        <router-link to="/about">About</router-link>
+                    </div>
+                </div>
+                <router-view></router-view>
+            </div>
         </div>
         <script src="./dist/bundle.js"></script>
     </body>

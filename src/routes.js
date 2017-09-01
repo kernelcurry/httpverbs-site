@@ -1,16 +1,20 @@
 import VueRouter from 'vue-router';
+import Home from './components/views/home.vue'
+import About from './components/views/about.vue'
 
 let routes = [
     {
         path: '/',
-        component: require('./views/home.vue')
+        component: Home
     },
     {
         path: '/about',
-        component: require('./views/about.vue')
+        component: About
     }
 ];
 
 export default new VueRouter({
-    routes
+    routes,
+    linkActiveClass: 'is-active',
+    linkExactActiveClass: ''
 });
