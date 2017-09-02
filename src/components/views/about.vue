@@ -2,7 +2,7 @@
     <div class="row">
         <div class="twelve column">
             <h4>About Page</h4>
-            TODO: Fill Out PAge
+            TODO: Fill Out Page
         </div>
     </div>
 </template>
