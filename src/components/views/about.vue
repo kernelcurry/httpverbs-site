@@ -1,6 +1,6 @@
 <template>
     <div class="row">
-        <div class="twelve column">
+        <div class="col-12 column">
             <h4>About Page</h4>
             TODO: Fill Out Page
         </div>

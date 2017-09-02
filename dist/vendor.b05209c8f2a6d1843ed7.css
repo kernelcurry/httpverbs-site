@@ -735,14 +735,27 @@ ol {
   float: left;
 }
 
+.text-center {
+  text-align: center;
+}
+
 .full-screen {
   width: 100%;
   min-height: 100vh;
 }
 
-.right {
+.vertical-align {
+  display: flex;
+  align-items: center;
+}
+
+.center,.right {
   align-items: center;
   display: flex;
+}
+
+.center {
+  justify-content: center;
 }
 
 .right {
@@ -805,4 +818,10 @@ pre>code {
 
 .nav-item {
   padding: 1rem 2rem;
+}
+
+.nav-logo {
+  font-weight: bolder;
+  font-size: 2rem;
+  line-height: 0;
 }

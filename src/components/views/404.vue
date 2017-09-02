@@ -1,6 +1,6 @@
 <template>
     <div id="page-404" class="row">
-        <div class="twelve column">
+        <div class="col-12 column">
             <h1>404</h1>
             <h4>Page Not Found SOMETHING ELSE</h4>
             <p>
