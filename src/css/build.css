@@ -1,5 +1,3 @@
-@import "packages/normalize.css";
-@import "packages/skeleton.css";
+@import "global.css";
 @import "components/card.css";
-
 @import "components/views/404.css";
