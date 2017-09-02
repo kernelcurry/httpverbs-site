@@ -735,27 +735,14 @@ ol {
   float: left;
 }
 
-.text-center {
-  text-align: center;
-}
-
 .full-screen {
   width: 100%;
   min-height: 100vh;
 }
 
-.vertical-align {
-  display: flex;
-  align-items: center;
-}
-
-.center,.right {
+.right {
   align-items: center;
   display: flex;
-}
-
-.center {
-  justify-content: center;
 }
 
 .right {

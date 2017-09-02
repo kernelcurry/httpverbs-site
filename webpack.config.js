@@ -1,11 +1,13 @@
 let webpack = require('webpack');
+
 let path = require('path');
 let glob = require('glob');
+
 let ExtractTextPlugin = require('extract-text-webpack-plugin');
 let PurifyCSSPlugin = require('purifycss-webpack');
 let WebpackCleanPlugin = require('webpack-clean-plugin');
-let ManifestPlugin = require('webpack-manifest-plugin');
-const ChunkHashReplacePlugin = require('chunkhash-replace-webpack-plugin');
+let ChunkHashReplacePlugin = require('chunkhash-replace-webpack-plugin');
+
 let isProduction = (process.env.NODE_ENV === 'production');
 
 module.exports = {
@@ -61,7 +63,6 @@ module.exports = {
         }),
         new webpack.LoaderOptionsPlugin({
             minimize: isProduction
-        }),
-        new ManifestPlugin()
+        })
     ]
 };
