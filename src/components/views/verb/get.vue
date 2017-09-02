@@ -1,1 +1,23 @@
-<template><div>TEST</div></template>
+<template>
+    <div>
+        <p>
+            The GET method requests transfer of a current selected representation for the target resource.  GET is the primary mechanism of information retrieval and the focus of almost all performance optimizations. Hence, when people speak of retrieving some identifiable information via HTTP, they are generally referring to making a GET request.
+        </p>
+
+        <p>
+            It is tempting to think of resource identifiers as remote file system pathnames and of representations as being a copy of the contents of such files.  In fact, that is how many resources are implemented (see Section 9.1 for related security considerations).  However, there are no such limitations in practice.  The HTTP interface for a resource is just as likely to be implemented as a tree of content objects, a programmatic view on various database records, or a gateway to other information systems.  Even when the URI mapping mechanism is tied to a file system, an origin server might be configured to execute the files with the request as input and send the output as the representation rather than transfer the files directly.  Regardless, only the origin server needs to know how each of its resource identifiers corresponds to an implementation and how each implementation manages to select and send a current representation of the target resource in a response to GET.
+        </p>
+
+        <p>
+            A client can alter the semantics of GET to be a "range request", requesting transfer of only some part(s) of the selected representation, by sending a Range header field in the request ([RFC7233]).
+        </p>
+
+        <p>
+            A payload within a GET request message has no defined semantics; sending a payload body on a GET request might cause some existing implementations to reject the request.
+        </p>
+
+        <p>
+            The response to a GET request is cacheable; a cache MAY use it to satisfy subsequent GET and HEAD requests unless otherwise indicated by the Cache-Control header field (Section 5.2 of [RFC7234]).
+        </p>
+    </div>
+</template>
