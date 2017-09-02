@@ -13099,7 +13099,7 @@ var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._sel
     attrs: {
       "to": "/"
     }
-  }, [_vm._v("Http Verbs")])], 1), _vm._v(" "), _c('router-link', {
+  }, [_vm._v("HTTP Verbs")])], 1), _vm._v(" "), _c('router-link', {
     staticClass: "nav-item",
     attrs: {
       "to": "/about"
