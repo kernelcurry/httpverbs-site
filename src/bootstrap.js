@@ -7,3 +7,6 @@ Vue.use(VueRouter);
 // load components
 import Card from './components/card.vue'
 Vue.component('card', Card);
+
+import CardList from './components/card-list.vue'
+Vue.component('card-list', CardList);

@@ -1,0 +1,30 @@
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 2px 2px 15px 4px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 5px; /* 5px rounded corners */
+    padding: 6px 16px;
+    margin-bottom: 4rem;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 2px 4px 30px 4px rgba(0, 0, 0, 0.2);
+}
+
+.card .footer {
+    font-size: 1.2rem;
+    padding-top: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: #aaa;
+    border-top: 1px solid #aaa;
+}
+
+.card .verb:after {
+    content: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjAiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIGZpbGw9IiNmYWxzZSIgPjxnIGlkPSJzdXJmYWNlMSI+PHBhdGggc3R5bGU9IiAiIGQ9Ik0gNSAzIEMgMy44OTg0MzggMyAzIDMuODk4NDM4IDMgNSBMIDMgMTkgQyAzIDIwLjEwMTU2MyAzLjg5ODQzOCAyMSA1IDIxIEwgMTkgMjEgQyAyMC4xMDE1NjMgMjEgMjEgMjAuMTAxNTYzIDIxIDE5IEwgMjEgMTMgTCAxOSAxMSBMIDE5IDE5IEwgNSAxOSBMIDUgNSBMIDEzIDUgTCAxMSAzIFogTSAxNCAzIEwgMTYuNjU2MjUgNS42NTYyNSBMIDkuMTU2MjUgMTMuMTU2MjUgTCAxMC44NDM3NSAxNC44NDM3NSBMIDE4LjM0Mzc1IDcuMzQzNzUgTCAyMSAxMCBMIDIxIDMgWiAiPjwvcGF0aD48L2c+PC9zdmc+");
+    display: inline-block;
+    height: 12px;
+    width: 12px;
+    margin: 0 5px;
+}

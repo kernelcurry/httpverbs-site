@@ -1,19 +1,8 @@
 <template>
     <div class="row">
-        <div class="one-half column">
+        <div class="twelve column">
             <h4>About Page</h4>
-            <card heading="DELETE">
-                TODO: Add description
-            </card>
-            <card heading="PATCH">
-                TODO: Add description
-            </card>
-            <card heading="POST">
-                TODO: Add description
-            </card>
-            <card heading="GET">
-                TODO: Add description
-            </card>
+            TODO: Fill Out PAge
         </div>
     </div>
 </template>
